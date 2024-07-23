@@ -1,4 +1,45 @@
+/*
+Color codes:
+B3C8CF
+BED7DC
+F1EEDC
+E5DDC5
+*/
+
+
+
 body {
-  background-color: #f4f4f4;
+  background-color: #F1EEDC;
 }
 
+
+.background {
+  background-color: #B3C8CF;
+  border: 3px solid ;
+  box-shadow: 5px 5px;
+  border-radius: 20px;
+  margin: 80px;
+  margin-top: 60px;
+  word-wrap: break-word;
+
+}
+
+.logo {
+  border-radius: 10px;
+}
+
+.primary-button{
+  background-color: #F1EEDC;
+  border-radius: 30px;
+  box-shadow: 2px 2px;
+  border: 3px solid;
+  color: black;
+}
+
+.primary-button:hover{
+  transform: translate(-4px,-4px);
+  box-shadow: 4px 4px #000000;
+  background-color: #E5DDC5;
+  border:3px solid;
+  color: black;
+}
